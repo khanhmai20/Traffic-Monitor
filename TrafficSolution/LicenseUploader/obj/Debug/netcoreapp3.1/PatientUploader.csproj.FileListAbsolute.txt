@@ -1,0 +1,15 @@
+C:\Users\dangquockhanh\source\repos\PatientInsurance\PatientUploader\bin\Debug\netcoreapp3.1\PatientUploader.exe
+C:\Users\dangquockhanh\source\repos\PatientInsurance\PatientUploader\bin\Debug\netcoreapp3.1\PatientUploader.deps.json
+C:\Users\dangquockhanh\source\repos\PatientInsurance\PatientUploader\bin\Debug\netcoreapp3.1\PatientUploader.runtimeconfig.json
+C:\Users\dangquockhanh\source\repos\PatientInsurance\PatientUploader\bin\Debug\netcoreapp3.1\PatientUploader.runtimeconfig.dev.json
+C:\Users\dangquockhanh\source\repos\PatientInsurance\PatientUploader\bin\Debug\netcoreapp3.1\PatientUploader.dll
+C:\Users\dangquockhanh\source\repos\PatientInsurance\PatientUploader\bin\Debug\netcoreapp3.1\PatientUploader.pdb
+C:\Users\dangquockhanh\source\repos\PatientInsurance\PatientUploader\bin\Debug\netcoreapp3.1\AWSSDK.Core.dll
+C:\Users\dangquockhanh\source\repos\PatientInsurance\PatientUploader\bin\Debug\netcoreapp3.1\AWSSDK.S3.dll
+C:\Users\dangquockhanh\source\repos\PatientInsurance\PatientUploader\obj\Debug\netcoreapp3.1\PatientUploader.AssemblyInfoInputs.cache
+C:\Users\dangquockhanh\source\repos\PatientInsurance\PatientUploader\obj\Debug\netcoreapp3.1\PatientUploader.AssemblyInfo.cs
+C:\Users\dangquockhanh\source\repos\PatientInsurance\PatientUploader\obj\Debug\netcoreapp3.1\PatientUploader.csproj.CoreCompileInputs.cache
+C:\Users\dangquockhanh\source\repos\PatientInsurance\PatientUploader\obj\Debug\netcoreapp3.1\PatientUploader.csproj.CopyComplete
+C:\Users\dangquockhanh\source\repos\PatientInsurance\PatientUploader\obj\Debug\netcoreapp3.1\PatientUploader.dll
+C:\Users\dangquockhanh\source\repos\PatientInsurance\PatientUploader\obj\Debug\netcoreapp3.1\PatientUploader.pdb
+C:\Users\dangquockhanh\source\repos\PatientInsurance\PatientUploader\obj\Debug\netcoreapp3.1\PatientUploader.genruntimeconfig.cache

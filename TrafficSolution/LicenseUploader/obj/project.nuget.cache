@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "QXBaaYLNgEF95K/VTcMcmtO7iwnlYSF68m/dX+vXRZAfEJQ5wX/mFHazinFafHF2ERdXSLfvy3406MoFJ9elbw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dangquockhanh\\source\\repos\\PatientInsurance\\PatientUploader\\PatientUploader.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dangquockhanh\\.nuget\\packages\\awssdk.core\\3.7.0.31\\awssdk.core.3.7.0.31.nupkg.sha512",
+    "C:\\Users\\dangquockhanh\\.nuget\\packages\\awssdk.s3\\3.7.1\\awssdk.s3.3.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

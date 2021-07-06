@@ -1,0 +1,131 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1/linux-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {},
+    ".NETCoreApp,Version=v3.1/linux-x64": {
+      "InsuranceDataFunction/1.0.0": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.0.34",
+          "AWSSDK.SimpleNotificationService": "3.7.2.3",
+          "AWSSDK.Translate": "3.7.0.32",
+          "Amazon.Lambda.Core": "1.2.0",
+          "Amazon.Lambda.SQSEvents": "1.2.0",
+          "Amazon.Lambda.Serialization.SystemTextJson": "2.1.0"
+        },
+        "runtime": {
+          "InsuranceDataFunction.dll": {}
+        }
+      },
+      "Amazon.Lambda.Core/1.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Lambda.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.Serialization.SystemTextJson/2.1.0": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "1.2.0"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.SQSEvents/1.2.0": {
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Lambda.SQSEvents.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AWSSDK.Core/3.7.0.34": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.0.34"
+          }
+        }
+      },
+      "AWSSDK.SimpleNotificationService/3.7.2.3": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.0.34"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SimpleNotificationService.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.2.3"
+          }
+        }
+      },
+      "AWSSDK.Translate/3.7.0.32": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.0.34"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Translate.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.0.32"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "InsuranceDataFunction/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Amazon.Lambda.Core/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-goaq1LaH1UJB18BNG/Apxmn0P7dAlLWFbxU2nKxK+M4lH2KJaZDbtlP2gFEAJ+aENOMBHthaLPEtk3944J2OOg==",
+      "path": "amazon.lambda.core/1.2.0",
+      "hashPath": "amazon.lambda.core.1.2.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.Serialization.SystemTextJson/2.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-q2R4I77NrrAHDpcaWby9VA/XhE1tjG/2kpredwucRq7k4dTPCqqB7OFmbiFdlfuErrp2/9+X1l62c4unwVicpw==",
+      "path": "amazon.lambda.serialization.systemtextjson/2.1.0",
+      "hashPath": "amazon.lambda.serialization.systemtextjson.2.1.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.SQSEvents/1.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-24C5UjjGyuyOHfocw5d31YjsS+uS6I2Mrw2fuLCJx4stu2DgUFdEPTbL9FimAwPAcRdBpndKee6dYEinQMIiCw==",
+      "path": "amazon.lambda.sqsevents/1.2.0",
+      "hashPath": "amazon.lambda.sqsevents.1.2.0.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.7.0.34": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5EGFEfIIiIF2iQfxcwSjbuL1gvs2ESVLwECAxgpD2BDzfXdjxsHwNRXQPT+7R7iS78hjBETF/ka1iTMuNqU4ww==",
+      "path": "awssdk.core/3.7.0.34",
+      "hashPath": "awssdk.core.3.7.0.34.nupkg.sha512"
+    },
+    "AWSSDK.SimpleNotificationService/3.7.2.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VxlhVQbQb9bON6xlG1NCuzNktNbHbQO3+ohfrPqBuEVxX/OXbPj1RrPqobYds1rq/Z+dZa0LlOgGz7+BawjZvg==",
+      "path": "awssdk.simplenotificationservice/3.7.2.3",
+      "hashPath": "awssdk.simplenotificationservice.3.7.2.3.nupkg.sha512"
+    },
+    "AWSSDK.Translate/3.7.0.32": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7CzT3nl4un5U61dlbj0tW2Arv7aiONi7YHLac07AF5mSzVq/T3bATxnXO/qcGBRtozFPfheIHgb8wgAYtHu1nQ==",
+      "path": "awssdk.translate/3.7.0.32",
+      "hashPath": "awssdk.translate.3.7.0.32.nupkg.sha512"
+    }
+  }
+}

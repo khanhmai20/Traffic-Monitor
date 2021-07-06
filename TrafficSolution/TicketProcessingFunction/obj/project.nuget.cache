@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "Gur40K8KYqz9exWXeT481Ocr4TCTUjnx1Suw+i0BOfGaadN5ECIpQDWKHDRj/QGA3QLzWguDAxDwrLjRoqDBKA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dangquockhanh\\source\\repos\\PatientInsurance\\InsuranceDataFunction\\InsuranceDataFunction.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dangquockhanh\\.nuget\\packages\\amazon.lambda.core\\1.2.0\\amazon.lambda.core.1.2.0.nupkg.sha512",
+    "C:\\Users\\dangquockhanh\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.1.0\\amazon.lambda.serialization.systemtextjson.2.1.0.nupkg.sha512",
+    "C:\\Users\\dangquockhanh\\.nuget\\packages\\amazon.lambda.sqsevents\\1.2.0\\amazon.lambda.sqsevents.1.2.0.nupkg.sha512",
+    "C:\\Users\\dangquockhanh\\.nuget\\packages\\awssdk.core\\3.7.0.34\\awssdk.core.3.7.0.34.nupkg.sha512",
+    "C:\\Users\\dangquockhanh\\.nuget\\packages\\awssdk.simplenotificationservice\\3.7.2.3\\awssdk.simplenotificationservice.3.7.2.3.nupkg.sha512",
+    "C:\\Users\\dangquockhanh\\.nuget\\packages\\awssdk.translate\\3.7.0.32\\awssdk.translate.3.7.0.32.nupkg.sha512"
+  ],
+  "logs": []
+}

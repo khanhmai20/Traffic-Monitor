@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "1ohQRS2eRoy6+ghNZjElrPNrxNC6uN7235QJeYtPlIThMy+ILkA3uLw6sV+MzmwT1GAS6n2UhuMtfBYWEJOBoA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\dangquockhanh\\source\\repos\\PatientInsurance\\PatientReaderFunction\\PatientReaderFunction.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\dangquockhanh\\.nuget\\packages\\amazon.lambda.core\\1.2.0\\amazon.lambda.core.1.2.0.nupkg.sha512",
+    "C:\\Users\\dangquockhanh\\.nuget\\packages\\amazon.lambda.s3events\\1.2.0\\amazon.lambda.s3events.1.2.0.nupkg.sha512",
+    "C:\\Users\\dangquockhanh\\.nuget\\packages\\amazon.lambda.serialization.systemtextjson\\2.1.0\\amazon.lambda.serialization.systemtextjson.2.1.0.nupkg.sha512",
+    "C:\\Users\\dangquockhanh\\.nuget\\packages\\awssdk.core\\3.7.0.31\\awssdk.core.3.7.0.31.nupkg.sha512",
+    "C:\\Users\\dangquockhanh\\.nuget\\packages\\awssdk.rekognition\\3.7.1\\awssdk.rekognition.3.7.1.nupkg.sha512",
+    "C:\\Users\\dangquockhanh\\.nuget\\packages\\awssdk.s3\\3.5.7.5\\awssdk.s3.3.5.7.5.nupkg.sha512",
+    "C:\\Users\\dangquockhanh\\.nuget\\packages\\awssdk.sqs\\3.7.0.30\\awssdk.sqs.3.7.0.30.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package version outside of dependency constraint: AWSSDK.S3 3.5.7.5 requires AWSSDK.Core (>= 3.5.1.58 && < 3.6.0) but version AWSSDK.Core 3.7.0.31 was resolved.",
+      "libraryId": "AWSSDK.Core",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

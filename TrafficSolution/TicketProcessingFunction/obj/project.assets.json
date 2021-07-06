@@ -1,0 +1,287 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Amazon.Lambda.Core/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Amazon.Lambda.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Lambda.Core.dll": {}
+        }
+      },
+      "Amazon.Lambda.Serialization.SystemTextJson/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Amazon.Lambda.Core": "1.2.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll": {}
+        }
+      },
+      "Amazon.Lambda.SQSEvents/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Amazon.Lambda.SQSEvents.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Lambda.SQSEvents.dll": {}
+        }
+      },
+      "AWSSDK.Core/3.7.0.34": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.SimpleNotificationService/3.7.2.3": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.0.34, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.SimpleNotificationService.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SimpleNotificationService.dll": {}
+        }
+      },
+      "AWSSDK.Translate/3.7.0.32": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.7.0.34, 4.0.0)"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/AWSSDK.Translate.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Translate.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Amazon.Lambda.Core/1.2.0": {
+      "sha512": "goaq1LaH1UJB18BNG/Apxmn0P7dAlLWFbxU2nKxK+M4lH2KJaZDbtlP2gFEAJ+aENOMBHthaLPEtk3944J2OOg==",
+      "type": "package",
+      "path": "amazon.lambda.core/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.lambda.core.1.2.0.nupkg.sha512",
+        "amazon.lambda.core.nuspec",
+        "lib/netstandard1.3/Amazon.Lambda.Core.dll",
+        "lib/netstandard1.3/Amazon.Lambda.Core.xml",
+        "lib/netstandard2.0/Amazon.Lambda.Core.dll",
+        "lib/netstandard2.0/Amazon.Lambda.Core.xml"
+      ]
+    },
+    "Amazon.Lambda.Serialization.SystemTextJson/2.1.0": {
+      "sha512": "q2R4I77NrrAHDpcaWby9VA/XhE1tjG/2kpredwucRq7k4dTPCqqB7OFmbiFdlfuErrp2/9+X1l62c4unwVicpw==",
+      "type": "package",
+      "path": "amazon.lambda.serialization.systemtextjson/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.lambda.serialization.systemtextjson.2.1.0.nupkg.sha512",
+        "amazon.lambda.serialization.systemtextjson.nuspec",
+        "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.dll",
+        "lib/netcoreapp3.1/Amazon.Lambda.Serialization.SystemTextJson.xml"
+      ]
+    },
+    "Amazon.Lambda.SQSEvents/1.2.0": {
+      "sha512": "24C5UjjGyuyOHfocw5d31YjsS+uS6I2Mrw2fuLCJx4stu2DgUFdEPTbL9FimAwPAcRdBpndKee6dYEinQMIiCw==",
+      "type": "package",
+      "path": "amazon.lambda.sqsevents/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "amazon.lambda.sqsevents.1.2.0.nupkg.sha512",
+        "amazon.lambda.sqsevents.nuspec",
+        "lib/netstandard1.3/Amazon.Lambda.SQSEvents.dll",
+        "lib/netstandard1.3/Amazon.Lambda.SQSEvents.xml",
+        "lib/netstandard2.0/Amazon.Lambda.SQSEvents.dll",
+        "lib/netstandard2.0/Amazon.Lambda.SQSEvents.xml"
+      ]
+    },
+    "AWSSDK.Core/3.7.0.34": {
+      "sha512": "5EGFEfIIiIF2iQfxcwSjbuL1gvs2ESVLwECAxgpD2BDzfXdjxsHwNRXQPT+7R7iS78hjBETF/ka1iTMuNqU4ww==",
+      "type": "package",
+      "path": "awssdk.core/3.7.0.34",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.3.7.0.34.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/netcoreapp3.1/AWSSDK.Core.dll",
+        "lib/netcoreapp3.1/AWSSDK.Core.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "tools/account-management.ps1"
+      ]
+    },
+    "AWSSDK.SimpleNotificationService/3.7.2.3": {
+      "sha512": "VxlhVQbQb9bON6xlG1NCuzNktNbHbQO3+ohfrPqBuEVxX/OXbPj1RrPqobYds1rq/Z+dZa0LlOgGz7+BawjZvg==",
+      "type": "package",
+      "path": "awssdk.simplenotificationservice/3.7.2.3",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.SimpleNotificationService.CodeAnalysis.dll",
+        "awssdk.simplenotificationservice.3.7.2.3.nupkg.sha512",
+        "awssdk.simplenotificationservice.nuspec",
+        "lib/net35/AWSSDK.SimpleNotificationService.dll",
+        "lib/net35/AWSSDK.SimpleNotificationService.pdb",
+        "lib/net35/AWSSDK.SimpleNotificationService.xml",
+        "lib/net45/AWSSDK.SimpleNotificationService.dll",
+        "lib/net45/AWSSDK.SimpleNotificationService.pdb",
+        "lib/net45/AWSSDK.SimpleNotificationService.xml",
+        "lib/netcoreapp3.1/AWSSDK.SimpleNotificationService.dll",
+        "lib/netcoreapp3.1/AWSSDK.SimpleNotificationService.pdb",
+        "lib/netcoreapp3.1/AWSSDK.SimpleNotificationService.xml",
+        "lib/netstandard2.0/AWSSDK.SimpleNotificationService.dll",
+        "lib/netstandard2.0/AWSSDK.SimpleNotificationService.pdb",
+        "lib/netstandard2.0/AWSSDK.SimpleNotificationService.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "AWSSDK.Translate/3.7.0.32": {
+      "sha512": "7CzT3nl4un5U61dlbj0tW2Arv7aiONi7YHLac07AF5mSzVq/T3bATxnXO/qcGBRtozFPfheIHgb8wgAYtHu1nQ==",
+      "type": "package",
+      "path": "awssdk.translate/3.7.0.32",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.Translate.CodeAnalysis.dll",
+        "awssdk.translate.3.7.0.32.nupkg.sha512",
+        "awssdk.translate.nuspec",
+        "lib/net35/AWSSDK.Translate.dll",
+        "lib/net35/AWSSDK.Translate.pdb",
+        "lib/net35/AWSSDK.Translate.xml",
+        "lib/net45/AWSSDK.Translate.dll",
+        "lib/net45/AWSSDK.Translate.pdb",
+        "lib/net45/AWSSDK.Translate.xml",
+        "lib/netcoreapp3.1/AWSSDK.Translate.dll",
+        "lib/netcoreapp3.1/AWSSDK.Translate.pdb",
+        "lib/netcoreapp3.1/AWSSDK.Translate.xml",
+        "lib/netstandard2.0/AWSSDK.Translate.dll",
+        "lib/netstandard2.0/AWSSDK.Translate.pdb",
+        "lib/netstandard2.0/AWSSDK.Translate.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "AWSSDK.Core >= 3.7.0.34",
+      "AWSSDK.SimpleNotificationService >= 3.7.2.3",
+      "AWSSDK.Translate >= 3.7.0.32",
+      "Amazon.Lambda.Core >= 1.2.0",
+      "Amazon.Lambda.SQSEvents >= 1.2.0",
+      "Amazon.Lambda.Serialization.SystemTextJson >= 2.1.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\dangquockhanh\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\dangquockhanh\\source\\repos\\PatientInsurance\\InsuranceDataFunction\\InsuranceDataFunction.csproj",
+      "projectName": "InsuranceDataFunction",
+      "projectPath": "C:\\Users\\dangquockhanh\\source\\repos\\PatientInsurance\\InsuranceDataFunction\\InsuranceDataFunction.csproj",
+      "packagesPath": "C:\\Users\\dangquockhanh\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dangquockhanh\\source\\repos\\PatientInsurance\\InsuranceDataFunction\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\dangquockhanh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "dependencies": {
+          "AWSSDK.Core": {
+            "target": "Package",
+            "version": "[3.7.0.34, )"
+          },
+          "AWSSDK.SimpleNotificationService": {
+            "target": "Package",
+            "version": "[3.7.2.3, )"
+          },
+          "AWSSDK.Translate": {
+            "target": "Package",
+            "version": "[3.7.0.32, )"
+          },
+          "Amazon.Lambda.Core": {
+            "target": "Package",
+            "version": "[1.2.0, )"
+          },
+          "Amazon.Lambda.SQSEvents": {
+            "target": "Package",
+            "version": "[1.2.0, )"
+          },
+          "Amazon.Lambda.Serialization.SystemTextJson": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
