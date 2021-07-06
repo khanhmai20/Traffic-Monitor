@@ -1,12 +1,12 @@
 # Traffic Monitor
 
-## Objective 
-- Utilize AWS resources: Lambda, S3, SQS, SNS. 
+## <font color = "blue">Objective</font> 
+- Utilize AWS resources: <font color = "red">Lambda, S3, SQS, SNS.</font> 
 - C# programming (.Net cross-platform)
 - Xml and Json manipulation 
 - Practicing Hybrid Model. 
 
-## Description 
+## <font color = "blue">Description</font>
 
 1. Collecting traffic image and filtering license plate. 
 ![Collection](/Asset/Collection.png)
@@ -31,9 +31,9 @@ Date: **The date/time the violation took place**
 Violation address: **Address where the violation took place** Vilation type: **Type of violation**
 Ticket amount: **The ticket amount**
 
-## System Design
+## <font color = "blue">System Design </font>
 ![Design](/Asset/SystemWorkflowDiagram.png)
 
-## Result 
+## <font color = "blue">Result </font>
 ![English](/Asset/English.png)
 ![Spanish](/Asset/Spanish.png)
